@@ -1,0 +1,6 @@
+framework module Pods_Alarm_ios_swift {
+  umbrella header "Pods-Alarm-ios-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

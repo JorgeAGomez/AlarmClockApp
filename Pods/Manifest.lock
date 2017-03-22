@@ -1,0 +1,12 @@
+PODS:
+  - EZClockView (1.2)
+
+DEPENDENCIES:
+  - EZClockView (~> 1.2)
+
+SPEC CHECKSUMS:
+  EZClockView: e14aa6e15d73da6415e2c02096ea7ea05b71231d
+
+PODFILE CHECKSUM: 3a5af469b715c88f9de5fbfb4e77c946dc9ea579
+
+COCOAPODS: 1.2.0

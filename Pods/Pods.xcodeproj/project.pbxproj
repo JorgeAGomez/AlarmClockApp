@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263D133C164A3C838F98732664E7BE7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		391C9AF3D2F7C04577FB0BABE114A9E7 /* EZClockView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E123178B9B15E6CAE25AC55377DE34B7 /* EZClockView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EB652461B7418E21B806740CB1DA191 /* Pods-Alarm-ios-swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81CF915BABB9BFA0634363841679C39B /* Pods-Alarm-ios-swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75162BE83C51BF9621F80C621B3ACB2D /* Pods-Alarm-ios-swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EBE5104572A43985255BA09C6182D4 /* Pods-Alarm-ios-swift-dummy.m */; };
+		82B8E1523AC95C3D2E56D977C5D3B983 /* Pods-Alarm-ios-swiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54752F14645C903D46CE943D66E667D9 /* Pods-Alarm-ios-swiftTests-dummy.m */; };
+		92CB8C5E9C04EC3309CF2E580AD62F1B /* MarkingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48682FD01FFB8B7EE508C9DDB032FF6A /* MarkingsView.swift */; };
+		9DEC4CB25B4FCFB5004757DE9C8C9ABE /* Pods-Alarm-ios-swiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3773BBDD5F891083452967EA66425A59 /* Pods-Alarm-ios-swiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF0C3C1856DA2F8243D77D78328F4465 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F886F8FE01C925861B8C21A04F668843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F942BAC01BB6DF86DE06144589064A5A /* EZClockView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EE6889F75DE5A929CC63224D7C2513 /* EZClockView-dummy.m */; };
+		FED999A1A3CE89494E18783FEF0EEA94 /* EZClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE706A97B4008D5945ACF941F7A7464 /* EZClockView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA1E57C64D93BBD5A796DF96A463483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D90B285D02E1117FDC094C5EF6D94A;
+			remoteInfo = EZClockView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065D9A5A579B3F42F62078F23A22CA94 /* Pods-Alarm-ios-swiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alarm-ios-swiftTests-frameworks.sh"; sourceTree = "<group>"; };
+		1A237C1C93C29B4CD3668EF4E2814B56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1A93E10354C6E120C3D5BF97295D58 /* Pods_Alarm_ios_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Alarm_ios_swift.framework; path = "Pods-Alarm-ios-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAE7E6DEDF989146B52348450BE7D38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F1179AB25CC173E31F3D90DE0B9B07 /* Pods-Alarm-ios-swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alarm-ios-swift-frameworks.sh"; sourceTree = "<group>"; };
+		3773BBDD5F891083452967EA66425A59 /* Pods-Alarm-ios-swiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alarm-ios-swiftTests-umbrella.h"; sourceTree = "<group>"; };
+		48682FD01FFB8B7EE508C9DDB032FF6A /* MarkingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkingsView.swift; path = Source/MarkingsView.swift; sourceTree = "<group>"; };
+		4FE7D2534946E38A0D453DB79FF05261 /* Pods-Alarm-ios-swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alarm-ios-swift-resources.sh"; sourceTree = "<group>"; };
+		54752F14645C903D46CE943D66E667D9 /* Pods-Alarm-ios-swiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alarm-ios-swiftTests-dummy.m"; sourceTree = "<group>"; };
+		5BE706A97B4008D5945ACF941F7A7464 /* EZClockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EZClockView.swift; path = Source/EZClockView.swift; sourceTree = "<group>"; };
+		64EBE5104572A43985255BA09C6182D4 /* Pods-Alarm-ios-swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Alarm-ios-swift-dummy.m"; sourceTree = "<group>"; };
+		7F8BC66A3DCF1A3FD8AAA12F530F8DEB /* Pods-Alarm-ios-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alarm-ios-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		81CF915BABB9BFA0634363841679C39B /* Pods-Alarm-ios-swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alarm-ios-swift-umbrella.h"; sourceTree = "<group>"; };
+		8EFD788CC1AC21557D1A974CA87E97EA /* Pods-Alarm-ios-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alarm-ios-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97ADDE1A8621BDC568B68691C6BE301E /* EZClockView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZClockView-prefix.pch"; sourceTree = "<group>"; };
+		99AAE64DE388F5BB0FEE02DA40E4F746 /* Pods-Alarm-ios-swiftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Alarm-ios-swiftTests-resources.sh"; sourceTree = "<group>"; };
+		99BC27103E7F05ECA2273E8C0AF78869 /* EZClockView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EZClockView.modulemap; sourceTree = "<group>"; };
+		9B4E64B43ABBF99CC738462B97CEAE33 /* EZClockView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EZClockView.framework; path = EZClockView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EE6889F75DE5A929CC63224D7C2513 /* EZClockView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EZClockView-dummy.m"; sourceTree = "<group>"; };
+		B1FAC5E9797714B87097F2DFCC8F845B /* Pods-Alarm-ios-swiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alarm-ios-swiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9E28C78FDA305131B187F267E134195 /* Pods-Alarm-ios-swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alarm-ios-swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C587F37C56AD49CB197263C021FF6586 /* Pods-Alarm-ios-swiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Alarm-ios-swiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8E2CCACBAAC4DDA19A76697055074E5 /* Pods-Alarm-ios-swiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Alarm-ios-swiftTests.modulemap"; sourceTree = "<group>"; };
+		CA71BD130183584D3980C1987B46FC16 /* Pods-Alarm-ios-swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Alarm-ios-swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBF3B5D5EDA9F064FF52E9C0634173E8 /* Pods-Alarm-ios-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alarm-ios-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		CFA67C3EC872E46B9BFC97E7EC99BFAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB99192F0DCB3DEF047A863DA1410A9 /* EZClockView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EZClockView.xcconfig; sourceTree = "<group>"; };
+		D7B1C1B0B868170F2DE7661C4EE802F3 /* Pods-Alarm-ios-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alarm-ios-swift.release.xcconfig"; sourceTree = "<group>"; };
+		DE1A8072DA95AE18260E54FE67330691 /* Pods-Alarm-ios-swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Alarm-ios-swift.modulemap"; sourceTree = "<group>"; };
+		E123178B9B15E6CAE25AC55377DE34B7 /* EZClockView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EZClockView-umbrella.h"; sourceTree = "<group>"; };
+		F82FA6A4456A07C0ECAF50EBFCDB7EEC /* Pods_Alarm_ios_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Alarm_ios_swiftTests.framework; path = "Pods-Alarm-ios-swiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		015FDB2260CFC8191F31ED35E390CA53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F886F8FE01C925861B8C21A04F668843 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB1BEDDB584699B12DF4DCF6384E817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0C3C1856DA2F8243D77D78328F4465 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C39A32A985213683A34046EAE9BC938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263D133C164A3C838F98732664E7BE7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B57313A5E72C19A111F68CA57085F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D2C3046087F641480776A31B1D3C76D /* EZClockView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3305AC23BD2D9D3CF64839B8184C3EB7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99BC27103E7F05ECA2273E8C0AF78869 /* EZClockView.modulemap */,
+				CFB99192F0DCB3DEF047A863DA1410A9 /* EZClockView.xcconfig */,
+				A7EE6889F75DE5A929CC63224D7C2513 /* EZClockView-dummy.m */,
+				97ADDE1A8621BDC568B68691C6BE301E /* EZClockView-prefix.pch */,
+				E123178B9B15E6CAE25AC55377DE34B7 /* EZClockView-umbrella.h */,
+				2CAE7E6DEDF989146B52348450BE7D38 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EZClockView";
+			sourceTree = "<group>";
+		};
+		3819E6AD967FF779E5AC84F31A3AF6C8 /* Pods-Alarm-ios-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA67C3EC872E46B9BFC97E7EC99BFAA /* Info.plist */,
+				C8E2CCACBAAC4DDA19A76697055074E5 /* Pods-Alarm-ios-swiftTests.modulemap */,
+				C587F37C56AD49CB197263C021FF6586 /* Pods-Alarm-ios-swiftTests-acknowledgements.markdown */,
+				B1FAC5E9797714B87097F2DFCC8F845B /* Pods-Alarm-ios-swiftTests-acknowledgements.plist */,
+				54752F14645C903D46CE943D66E667D9 /* Pods-Alarm-ios-swiftTests-dummy.m */,
+				065D9A5A579B3F42F62078F23A22CA94 /* Pods-Alarm-ios-swiftTests-frameworks.sh */,
+				99AAE64DE388F5BB0FEE02DA40E4F746 /* Pods-Alarm-ios-swiftTests-resources.sh */,
+				3773BBDD5F891083452967EA66425A59 /* Pods-Alarm-ios-swiftTests-umbrella.h */,
+				8EFD788CC1AC21557D1A974CA87E97EA /* Pods-Alarm-ios-swiftTests.debug.xcconfig */,
+				CBF3B5D5EDA9F064FF52E9C0634173E8 /* Pods-Alarm-ios-swiftTests.release.xcconfig */,
+			);
+			name = "Pods-Alarm-ios-swiftTests";
+			path = "Target Support Files/Pods-Alarm-ios-swiftTests";
+			sourceTree = "<group>";
+		};
+		6F71BB034BEB00E347433A0363A8AE79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B4E64B43ABBF99CC738462B97CEAE33 /* EZClockView.framework */,
+				2C1A93E10354C6E120C3D5BF97295D58 /* Pods_Alarm_ios_swift.framework */,
+				F82FA6A4456A07C0ECAF50EBFCDB7EEC /* Pods_Alarm_ios_swiftTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				22B57313A5E72C19A111F68CA57085F3 /* Pods */,
+				6F71BB034BEB00E347433A0363A8AE79 /* Products */,
+				B9AD0880333E731FB861E009F9329490 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D2C3046087F641480776A31B1D3C76D /* EZClockView */ = {
+			isa = PBXGroup;
+			children = (
+				5BE706A97B4008D5945ACF941F7A7464 /* EZClockView.swift */,
+				48682FD01FFB8B7EE508C9DDB032FF6A /* MarkingsView.swift */,
+				3305AC23BD2D9D3CF64839B8184C3EB7 /* Support Files */,
+			);
+			name = EZClockView;
+			path = EZClockView;
+			sourceTree = "<group>";
+		};
+		B9AD0880333E731FB861E009F9329490 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5B69A37A8A0C056D87BA0DFC936837B /* Pods-Alarm-ios-swift */,
+				3819E6AD967FF779E5AC84F31A3AF6C8 /* Pods-Alarm-ios-swiftTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5B69A37A8A0C056D87BA0DFC936837B /* Pods-Alarm-ios-swift */ = {
+			isa = PBXGroup;
+			children = (
+				1A237C1C93C29B4CD3668EF4E2814B56 /* Info.plist */,
+				DE1A8072DA95AE18260E54FE67330691 /* Pods-Alarm-ios-swift.modulemap */,
+				B9E28C78FDA305131B187F267E134195 /* Pods-Alarm-ios-swift-acknowledgements.markdown */,
+				CA71BD130183584D3980C1987B46FC16 /* Pods-Alarm-ios-swift-acknowledgements.plist */,
+				64EBE5104572A43985255BA09C6182D4 /* Pods-Alarm-ios-swift-dummy.m */,
+				30F1179AB25CC173E31F3D90DE0B9B07 /* Pods-Alarm-ios-swift-frameworks.sh */,
+				4FE7D2534946E38A0D453DB79FF05261 /* Pods-Alarm-ios-swift-resources.sh */,
+				81CF915BABB9BFA0634363841679C39B /* Pods-Alarm-ios-swift-umbrella.h */,
+				7F8BC66A3DCF1A3FD8AAA12F530F8DEB /* Pods-Alarm-ios-swift.debug.xcconfig */,
+				D7B1C1B0B868170F2DE7661C4EE802F3 /* Pods-Alarm-ios-swift.release.xcconfig */,
+			);
+			name = "Pods-Alarm-ios-swift";
+			path = "Target Support Files/Pods-Alarm-ios-swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0470D1A38B88ED52446C2CF02D0B6B55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEC4CB25B4FCFB5004757DE9C8C9ABE /* Pods-Alarm-ios-swiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F7D279C6721141BBBB188BDDD7295C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB652461B7418E21B806740CB1DA191 /* Pods-Alarm-ios-swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E07D55988AC6587A4353696FD6E0A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391C9AF3D2F7C04577FB0BABE114A9E7 /* EZClockView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00D90B285D02E1117FDC094C5EF6D94A /* EZClockView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E6DAF8F101F2B3E02B18275F78AAC3 /* Build configuration list for PBXNativeTarget "EZClockView" */;
+			buildPhases = (
+				5699363037677E063684039B4D6E78CA /* Sources */,
+				4C39A32A985213683A34046EAE9BC938 /* Frameworks */,
+				39E07D55988AC6587A4353696FD6E0A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZClockView;
+			productName = EZClockView;
+			productReference = 9B4E64B43ABBF99CC738462B97CEAE33 /* EZClockView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEB9E77065160F9A9BAD54D5117CCD15 /* Pods-Alarm-ios-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10885C73F47EEE9077B92772ED602796 /* Build configuration list for PBXNativeTarget "Pods-Alarm-ios-swift" */;
+			buildPhases = (
+				942890096A09056B7CDCAE2426C73DE9 /* Sources */,
+				015FDB2260CFC8191F31ED35E390CA53 /* Frameworks */,
+				2F7D279C6721141BBBB188BDDD7295C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D10921C431B39F864D0C4DFDE641396 /* PBXTargetDependency */,
+			);
+			name = "Pods-Alarm-ios-swift";
+			productName = "Pods-Alarm-ios-swift";
+			productReference = 2C1A93E10354C6E120C3D5BF97295D58 /* Pods_Alarm_ios_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9C649F9A32D9BDE1260E7F747FB3866 /* Pods-Alarm-ios-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167E1DDB3688C701EC46A67941CE721E /* Build configuration list for PBXNativeTarget "Pods-Alarm-ios-swiftTests" */;
+			buildPhases = (
+				246B469C01D559A2939EC8C9965C26EF /* Sources */,
+				2BB1BEDDB584699B12DF4DCF6384E817 /* Frameworks */,
+				0470D1A38B88ED52446C2CF02D0B6B55 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Alarm-ios-swiftTests";
+			productName = "Pods-Alarm-ios-swiftTests";
+			productReference = F82FA6A4456A07C0ECAF50EBFCDB7EEC /* Pods_Alarm_ios_swiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6F71BB034BEB00E347433A0363A8AE79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00D90B285D02E1117FDC094C5EF6D94A /* EZClockView */,
+				AEB9E77065160F9A9BAD54D5117CCD15 /* Pods-Alarm-ios-swift */,
+				B9C649F9A32D9BDE1260E7F747FB3866 /* Pods-Alarm-ios-swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		246B469C01D559A2939EC8C9965C26EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B8E1523AC95C3D2E56D977C5D3B983 /* Pods-Alarm-ios-swiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5699363037677E063684039B4D6E78CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F942BAC01BB6DF86DE06144589064A5A /* EZClockView-dummy.m in Sources */,
+				FED999A1A3CE89494E18783FEF0EEA94 /* EZClockView.swift in Sources */,
+				92CB8C5E9C04EC3309CF2E580AD62F1B /* MarkingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942890096A09056B7CDCAE2426C73DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75162BE83C51BF9621F80C621B3ACB2D /* Pods-Alarm-ios-swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D10921C431B39F864D0C4DFDE641396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EZClockView;
+			target = 00D90B285D02E1117FDC094C5EF6D94A /* EZClockView */;
+			targetProxy = 3FA1E57C64D93BBD5A796DF96A463483 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		273883B3A2C45CB1AFAB686584EF6182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EFD788CC1AC21557D1A974CA87E97EA /* Pods-Alarm-ios-swiftTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alarm-ios-swiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alarm-ios-swiftTests/Pods-Alarm-ios-swiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alarm_ios_swiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		386087B82A4308CA2FBC705AA8413905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB99192F0DCB3DEF047A863DA1410A9 /* EZClockView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EZClockView/EZClockView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EZClockView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EZClockView/EZClockView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EZClockView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94F82317A9C78E65B246AD3743AA258B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F8BC66A3DCF1A3FD8AAA12F530F8DEB /* Pods-Alarm-ios-swift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alarm-ios-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alarm-ios-swift/Pods-Alarm-ios-swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alarm_ios_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A435E3C35B2666C25C53422D898980A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B0141C18FC837E5F3DCD548FDADD2BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF3B5D5EDA9F064FF52E9C0634173E8 /* Pods-Alarm-ios-swiftTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alarm-ios-swiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alarm-ios-swiftTests/Pods-Alarm-ios-swiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alarm_ios_swiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B558E0958CC6CBC0DE91BA120D47AD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B1C1B0B868170F2DE7661C4EE802F3 /* Pods-Alarm-ios-swift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Alarm-ios-swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Alarm-ios-swift/Pods-Alarm-ios-swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Alarm_ios_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2C4F47FC8AD76198661C5EFDE751899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F640E4DEC7628664CCC33C20D4696047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB99192F0DCB3DEF047A863DA1410A9 /* EZClockView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EZClockView/EZClockView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EZClockView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EZClockView/EZClockView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EZClockView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10885C73F47EEE9077B92772ED602796 /* Build configuration list for PBXNativeTarget "Pods-Alarm-ios-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94F82317A9C78E65B246AD3743AA258B /* Debug */,
+				B558E0958CC6CBC0DE91BA120D47AD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		167E1DDB3688C701EC46A67941CE721E /* Build configuration list for PBXNativeTarget "Pods-Alarm-ios-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273883B3A2C45CB1AFAB686584EF6182 /* Debug */,
+				B0141C18FC837E5F3DCD548FDADD2BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E6DAF8F101F2B3E02B18275F78AAC3 /* Build configuration list for PBXNativeTarget "EZClockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				386087B82A4308CA2FBC705AA8413905 /* Debug */,
+				F640E4DEC7628664CCC33C20D4696047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A435E3C35B2666C25C53422D898980A7 /* Debug */,
+				F2C4F47FC8AD76198661C5EFDE751899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
